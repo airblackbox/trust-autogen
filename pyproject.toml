@@ -37,9 +37,9 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/nostalgicskinco/air-autogen-trust"
-Repository = "https://github.com/nostalgicskinco/air-autogen-trust"
-Issues = "https://github.com/nostalgicskinco/air-autogen-trust/issues"
+Homepage = "https://github.com/airblackbox/trust-autogen"
+Repository = "https://github.com/airblackbox/trust-autogen"
+Issues = "https://github.com/airblackbox/trust-autogen/issues"
 Documentation = "https://airblackbox.com/docs"
 
 [tool.setuptools.packages.find]
