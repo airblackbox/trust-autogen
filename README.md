@@ -113,16 +113,16 @@ plugin.get_installed_agents()  # List of installed agent names
 
 | Repository | Purpose |
 |-----------|---------|
-| [air-blackbox-gateway](https://github.com/nostalgicskinco/air-blackbox-gateway) | Go proxy gateway |
-| [air-crewai-trust](https://github.com/nostalgicskinco/air-crewai-trust) | Trust layer for CrewAI |
-| [air-langchain-trust](https://github.com/nostalgicskinco/air-langchain-trust) | Trust layer for LangChain |
-| **air-autogen-trust** | **Trust layer for AutoGen** (this repo) |
+| [gateway](https://github.com/airblackbox/gateway) | Go proxy gateway |
+| [trust-crewai](https://github.com/airblackbox/trust-crewai) | Trust layer for CrewAI |
+| [trust-langchain](https://github.com/airblackbox/trust-langchain) | Trust layer for LangChain |
+| **trust-autogen** | **Trust layer for AutoGen** (this repo) |
 
 ## Development
 
 ```bash
-git clone https://github.com/nostalgicskinco/air-autogen-trust.git
-cd air-autogen-trust
+git clone https://github.com/airblackbox/trust-autogen.git
+cd trust-autogen
 pip install -e ".[dev]"
 pytest tests/ -v
 ```
