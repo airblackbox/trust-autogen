@@ -1,5 +1,10 @@
 # air-autogen-trust
 
+[![CI](https://github.com/airblackbox/trust-autogen/actions/workflows/ci.yml/badge.svg)](https://github.com/airblackbox/trust-autogen/actions/workflows/ci.yml)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://github.com/airblackbox/trust-autogen/blob/main/LICENSE)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-3776AB.svg?logo=python&logoColor=white)](https://python.org)
+
+
 **AIR Trust Layer for Microsoft AutoGen / AG2** — Drop-in security, audit, and compliance for multi-agent systems.
 
 Part of the [AIR Blackbox](https://airblackbox.com) ecosystem. Adds tamper-proof audit trails, sensitive data tokenization, consent gates for destructive tools, and prompt injection detection to any AutoGen project.
